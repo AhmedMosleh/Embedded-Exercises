@@ -1,0 +1,39 @@
+/* 
+startup cortex M3.sram
+Eng. Ahmed Mosleh
+*/
+.global vectors, _reset
+
+.section .vectors
+
+.word 0x20001000        /* stack top */       
+.word _reset            /* 1 reset */
+.word vector_handler    /* 2 NMI */
+.word vector_handler    /* 3 Hard Fault */
+.word vector_handler    /* 4 MM Fault */
+.word vector_handler    /* 5 RSERVED */
+.word vector_handler    /* 6 RSERVED */
+.word vector_handler    /* 7 RSERVED */
+.word vector_handler    /* 8 NMI */
+.word vector_handler    /* 9 NMI */
+.word vector_handler    /* 10 NMI */
+.word vector_handler    /* 11 NMI */
+.word vector_handler    /* 12 NMI */
+.word vector_handler    /* 13 NMI */
+.word vector_handler    /* 14 NMI */
+.word vector_handler    /* 15 NMI */
+.word vector_handler    /* 16 NMI */
+.word vector_handler    /* 17 NMI */
+.word vector_handler    /* 18 NMI */
+.word vector_handler    /* 19 NMI */
+
+.section .text /* Take caure */
+
+_reset:
+    bl main
+    b .
+
+.thumb_func 
+
+vector_handler:
+    b _reset

@@ -1,6 +1,14 @@
 # C Programming Exercises
 
-This repository contains my solutions to various C programming exercises. I use this repository as a place to practice my programming skills and to improve my understanding of the C programming language.
+This repository contains exercises and solutions for various C programming topics, including:
+
+- C basics
+- Arrays
+- Functions
+- Structs
+- Pointers
+
+I use this repository as a place to practice my programming skills and to improve my understanding of the C programming language.
 
 ## Getting Started
 
@@ -16,6 +24,13 @@ git clone https://github.com/your-username/c-programming-exercises.git
 
 The repository contains the following directories:
 
-- `exercises`: This directory contains the C programming exercises. Each exercise is contained in a separate subdirectory and includes a README file with instructions.
+- `basics`: This directory contains exercises and solutions related to C basics such as data types, operations, and control flow.
 
-- `solutions`: This directory contains my solutions to the exercises in the `exercises` directory. Each solution is contained in a separate subdirectory and includes a README file with an explanation of the solution.
+- `arrays`: This directory contains exercises and solutions related to arrays, including one-dimensional and multi-dimensional arrays.
+
+- `functions`: This directory contains exercises and solutions related to functions, including function prototypes, passing arguments, and returning values.
+
+- `structs`: This directory contains exercises and solutions related to structs, including defining structs, accessing struct members, and passing structs as arguments.
+
+- `pointers`: This directory contains exercises and solutions related to pointers, including pointer arithmetic, pointer to functions, and pointer to structs.
+

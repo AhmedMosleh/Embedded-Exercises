@@ -2,10 +2,8 @@
 /*
  * stm32f103x8_USART_driver.h
  *
- *  Created on: Apr 28, 2021
- *      Author: Keroles Shenouda
- *      Mastering Embedded System Online Diploma
- *      www.learn-in-depth.com
+ *  Created on: 23/7/2023
+ *      Author: 
  */
 
 #include "stm32f103c6_uart.h"
